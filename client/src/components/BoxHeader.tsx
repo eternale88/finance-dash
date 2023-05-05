@@ -3,13 +3,13 @@ import React from "react";
 import FlexBetween from "./FlexBetween";
 
 type Props = {
-  title: string;
-  sideText: string;
-  subtitle?: string;
   icon?: React.ReactNode;
+  subtitle?: React.ReactNode;
+  title?: string;
+  slideText?: string;
 };
 
-const BoxHeader = ({ icon, title, subtitle, sideText }: Props) => {
+const BoxHeader = ({ icon, title, subtitle, slideText }: Props) => {
   const { palette } = useTheme();
   return (
     <FlexBetween color={palette.grey[400]} margin='1.5rem 1rem 0 1rem'>
@@ -23,7 +23,7 @@ const BoxHeader = ({ icon, title, subtitle, sideText }: Props) => {
         </Box>
       </FlexBetween>
       <Typography variant='h5' fontWeight='700' color={palette.secondary[500]}>
-        {sideText}
+        {slideText}
       </Typography>
     </FlexBetween>
   );
