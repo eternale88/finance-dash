@@ -69,7 +69,7 @@ const Row2 = (props: Props) => {
       <DashboardBox gridArea='d'>
         <BoxHeader
           title='Operational vs Non-Operational Expenses'
-          slideText='+4%'
+          sideText='+4%'
         />
         <ResponsiveContainer width='100%' height='100%'>
           <LineChart
@@ -119,7 +119,7 @@ const Row2 = (props: Props) => {
       </DashboardBox>
 
       <DashboardBox gridArea='e'>
-        <BoxHeader title='Campaigns and Targets' slideText='+4%' />
+        <BoxHeader title='Campaigns and Targets' sideText='+4%' />
         <FlexBetween mt='0.25rem' gap='1.5rem' pr='1rem'>
           <PieChart
             width={110}
@@ -165,7 +165,7 @@ const Row2 = (props: Props) => {
         </FlexBetween>
       </DashboardBox>
       <DashboardBox gridArea='f'>
-        <BoxHeader title='Produuct Prices vs Expenses' slideText='+4%' />
+        <BoxHeader title='Produuct Prices vs Expenses' sideText='+4%' />
         <ResponsiveContainer width='100%' height='100%'>
           <ScatterChart
             margin={{
