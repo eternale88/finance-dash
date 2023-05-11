@@ -19,7 +19,6 @@ const Row3 = (props: Props) => {
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
 
-  //console.log(Object.entries(kpiData[0].expensesByCategory));
   const pieChartData = useMemo(() => {
     if (kpiData) {
       const totalExpenses = kpiData[0].totalExpenses;
@@ -81,7 +80,7 @@ const Row3 = (props: Props) => {
     {
       field: "productIds",
       headerName: "Count",
-      flex: 0.35,
+      flex: 0.1,
       renderCell: (params: GridCellParams) =>
         (params.value as Array<string>).length,
     },
@@ -159,19 +158,10 @@ const Row3 = (props: Props) => {
       </DashboardBox>
       <DashboardBox gridArea='i'>
         <BoxHeader title='Expense Breakdown By Category' sideText='+4%' />
-        <FlexBetween>
+        <FlexBetween mt='0.5rem' gap='0.5rem' p='0 1rem' textAlign='center'>
           {pieChartData?.map((data, i) => (
             <Box key={`${data[0].name}-${i}`}>
-              <PieChart
-                width={110}
-                height={100}
-                margin={{
-                  top: 0,
-                  right: -10,
-                  left: 10,
-                  bottom: 0,
-                }}
-              >
+              <PieChart width={110} height={100}>
                 <Pie
                   data={data}
                   innerRadius={18}
