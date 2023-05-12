@@ -1,4 +1,4 @@
-# finance-dash
+# finance dashboard
 
 React TS app for visualizing KPI data with custom charts and machine learning to predict next year's revenue
 
