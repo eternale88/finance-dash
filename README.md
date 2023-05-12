@@ -3,9 +3,6 @@
 ## React TS app for visualizing KPI data with custom charts and machine learning to predict next year's revenue
 
 
-- css (global styles, styled components)
-- index.js for easier imports
-
 ## Vercel integration with Github for contiuous deployment
 [Live Vercel Deployment](https://finance-dash-dusky.vercel.app/)
 [Vercel Docs](https://vercel.com/docs)
