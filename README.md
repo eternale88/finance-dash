@@ -16,7 +16,7 @@ implemented linear equation to predict company revenue for next year
 [Material UI - Main Docs](https://mui.com/material-ui/getting-started/overview/)
 
 ## Recharts
-[Recharts]([https://www.npmjs.com/package/regression](https://recharts.org/en-US))
+[Recharts](https://recharts.org/en-US)
 
 ## React Router Dom
 - [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
