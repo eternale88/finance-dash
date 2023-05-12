@@ -1,6 +1,6 @@
 # finance-dash
 
-## React TS app for visualizing KPI data with custom charts and machine learning to predict next year's revenue
+React TS app for visualizing KPI data with custom charts and machine learning to predict next year's revenue
 
 
 ## Vercel integration with Github for contiuous deployment
@@ -9,7 +9,7 @@
 
 ## Machine Learning
 ## Regression
-# implemented linear equation to predict company revenue for next year
+implemented linear equation to predict company revenue for next year
 [regression](https://www.npmjs.com/package/regression)
 
 ## Material UI and MUI icons
